@@ -1,4 +1,4 @@
-package com.tong.BuilderPattern;
+package com.tong.builderpattern;
 
 import java.util.ArrayList;
 
