@@ -1,15 +1,15 @@
-package com.tong.proxypattern;
+package com.tong.proxypattern.two;
 
 /**
  * @author finch
- * @date 2018/2/7
+ * @date 2018/2/8
  */
 public class GamePlayerProxy implements IGamePlayer {
 
-    private IGamePlayer gamePlayer;
+    private IGamePlayer gamePlayer = null;
 
-    public GamePlayerProxy(IGamePlayer gamePlayer) {
-        this.gamePlayer = gamePlayer;
+    public GamePlayerProxy(String name) {
+        gamePlayer = new GamePlayer(this, name);
     }
 
     @Override

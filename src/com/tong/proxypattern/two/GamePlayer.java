@@ -1,15 +1,19 @@
-package com.tong.proxypattern;
+package com.tong.proxypattern.two;
 
 /**
  * @author finch
- * @date 2018/2/7
+ * @date 2018/2/8
  */
 public class GamePlayer implements IGamePlayer {
 
-    private String name = "";
+    public String name = "";
 
-    public GamePlayer(String name) {
-        this.name = name;
+    public GamePlayer(IGamePlayer gamePlayer, String name) {
+        if (gamePlayer == null) {
+            throw new NullPointerException("不能创建角色");
+        } else {
+            this.name = name;
+        }
     }
 
     @Override

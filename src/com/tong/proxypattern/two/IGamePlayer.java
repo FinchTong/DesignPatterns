@@ -1,8 +1,8 @@
-package com.tong.proxypattern;
+package com.tong.proxypattern.two;
 
 /**
  * @author finch
- * @date 2018/2/7
+ * @date 2018/2/8
  */
 public interface IGamePlayer {
 

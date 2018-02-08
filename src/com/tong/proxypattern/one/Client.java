@@ -1,4 +1,4 @@
-package com.tong.proxypattern;
+package com.tong.proxypattern.one;
 
 /**
  * @author finch
