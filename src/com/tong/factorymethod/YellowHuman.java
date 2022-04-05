@@ -8,11 +8,11 @@ public class YellowHuman implements Human {
 
     @Override
     public void getColor() {
-        System.out.println("肤色为黄");
+        System.out.println("鑲よ壊涓洪粍");
     }
 
     @Override
     public void talk() {
-        System.out.println("黄人说话");
+        System.out.println("榛勪汉璇磋瘽");
     }
 }

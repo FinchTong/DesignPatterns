@@ -7,6 +7,6 @@ package com.tong.factorymethod.four;
 public class PaoNoodLes implements Noodles {
     @Override
     public void desc() {
-        System.out.println("泡面，火车上最常见");
+        System.out.println("娉￠潰锛岀伀杞︿笂鏈�甯歌");
     }
 }

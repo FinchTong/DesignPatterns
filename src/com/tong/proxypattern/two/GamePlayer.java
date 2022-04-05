@@ -10,7 +10,7 @@ public class GamePlayer implements IGamePlayer {
 
     public GamePlayer(IGamePlayer gamePlayer, String name) {
         if (gamePlayer == null) {
-            throw new NullPointerException("²»ÄÜ´´½¨½ÇÉ«");
+            throw new NullPointerException("ä¸èƒ½åˆ›å»ºè§’è‰²");
         } else {
             this.name = name;
         }
@@ -18,16 +18,16 @@ public class GamePlayer implements IGamePlayer {
 
     @Override
     public void login(String user, String password) {
-        System.out.println("µÇÈëÃûÎª" + user + "µÄÓÃ»§" + this.name + "µÇÈë³É¹¦£¡");
+        System.out.println("ç™»å…¥åä¸º" + user + "çš„ç”¨æˆ·" + this.name + "ç™»å…¥æˆåŠŸï¼");
     }
 
     @Override
     public void killBoss() {
-        System.out.println(this.name + "ÕıÔÚ´ò¹Ö");
+        System.out.println(this.name + "æ­£åœ¨æ‰“æ€ª");
     }
 
     @Override
     public void upgrade() {
-        System.out.println(this.name + " ÓÖÉıÒ»¼¶£¡");
+        System.out.println(this.name + " åˆå‡ä¸€çº§ï¼");
     }
 }

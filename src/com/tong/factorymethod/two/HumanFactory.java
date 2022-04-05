@@ -6,7 +6,7 @@ import com.tong.factorymethod.WhiteHuman;
 import com.tong.factorymethod.YellowHuman;
 
 /**
- * ¶à·½·¨¾²Ì¬¹¤³§Ä£Ê½
+ * å¤šæ–¹æ³•é™æ€å·¥å‚æ¨¡å¼
  *
  * @author finch
  * @date 2018/2/6

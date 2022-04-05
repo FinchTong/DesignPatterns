@@ -3,7 +3,7 @@ package com.tong.factorymethod.one;
 import com.tong.factorymethod.Human;
 
 /**
- * ¼òµ¥¹¤³§£¨·´Éä£©
+ * ç®€å•å·¥å‚ï¼ˆåå°„ï¼‰
  *
  * @author finch
  * @date 2018/2/6
@@ -16,7 +16,7 @@ public class HumanFactory extends AbstractHumanFactory {
         try {
             human = (T) Class.forName(c.getName()).newInstance();
         } catch (Exception e) {
-            System.out.println("ÈËÖÖÉú²úÊ§°Ü");
+            System.out.println("äººç§ç”Ÿäº§å¤±è´¥");
         }
 
         return (T) human;

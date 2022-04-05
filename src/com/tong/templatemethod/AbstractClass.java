@@ -1,7 +1,7 @@
 package com.tong.templatemethod;
 
 /**
- * ³éÏóÄ£°åÀà
+ * æŠ½è±¡æ¨¡æ¿ç±»
  *
  * @author finch
  * @date 2018/2/6
@@ -9,18 +9,18 @@ package com.tong.templatemethod;
 public abstract class AbstractClass {
 
     /**
-     * »ù±¾·½·¨
+     * åŸºæœ¬æ–¹æ³•
      */
     protected abstract void doSomething();
 
     /**
-     * »ù±¾·½·¨
+     * åŸºæœ¬æ–¹æ³•
      */
     protected abstract void doAnything();
 
     public void templateMethod() {
         /*
-        µ÷ÓÃ»ù±¾·½·¨£¬Íê³ÉÏà¹ØµÄÂß¼­
+        è°ƒç”¨åŸºæœ¬æ–¹æ³•ï¼Œå®Œæˆç›¸å…³çš„é€»è¾‘
          */
         this.doAnything();
         this.doSomething();

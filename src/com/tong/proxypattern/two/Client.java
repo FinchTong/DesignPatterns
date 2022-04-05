@@ -1,7 +1,7 @@
 package com.tong.proxypattern.two;
 
 /**
- * ÆÕÍ¨´úÀí£¬µ÷ÓÃÕßÖµÖª´úÀí¶ø²»ÓÃÖªµÀÕæÊÇµÄ½ÇÉ«ÊÇË­£¬ÆÁ±ÎÁËÕæÊµ½ÇÉ«µÄ±ä¸ü¶Ô¸ß²ãÄ£¿éµÄÓ°Ïì¡£
+ * æ™®é€šä»£ç†ï¼Œè°ƒç”¨è€…å€¼çŸ¥ä»£ç†è€Œä¸ç”¨çŸ¥é“çœŸæ˜¯çš„è§’è‰²æ˜¯è°ï¼Œå±è”½äº†çœŸå®è§’è‰²çš„å˜æ›´å¯¹é«˜å±‚æ¨¡å—çš„å½±å“ã€‚
  *
  * @author finch
  * @date 2018/2/8
@@ -9,7 +9,7 @@ package com.tong.proxypattern.two;
 public class Client {
 
     public static void main(String[] args) {
-        IGamePlayer gamePlayer = new GamePlayerProxy("ÕÅÈı");
+        IGamePlayer gamePlayer = new GamePlayerProxy("å¼ ä¸‰");
         gamePlayer.login("zhangsan", "123456");
         gamePlayer.killBoss();
         gamePlayer.upgrade();

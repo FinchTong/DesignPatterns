@@ -7,6 +7,6 @@ package com.tong.factorymethod.four;
 public class LzNoodles implements Noodles {
     @Override
     public void desc() {
-        System.out.println("À¼ÖİÀ­Ãæ£¬µ½´¦¶¼ÄÜÕÒµ½");
+        System.out.println("å…°å·æ‹‰é¢ï¼Œåˆ°å¤„éƒ½èƒ½æ‰¾åˆ°");
     }
 }

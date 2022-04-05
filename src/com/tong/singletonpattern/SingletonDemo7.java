@@ -1,7 +1,7 @@
 package com.tong.singletonpattern;
 
 /**
- * Л«ЦШРЈСйЛш
+ * еЏЊй‡Ќж ЎйЄЊй”Ѓ
  *
  * @author tong
  */

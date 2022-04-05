@@ -7,23 +7,23 @@ package com.tong.templatemethod;
 public class ConcreteClass2 extends AbstractClass {
 
     /**
-     * 实现基本方法
+     * 瀹炵幇鍩烘湰鏂规硶
      */
     @Override
     protected void doSomething() {
 
-        //业务逻辑处理
+        //涓氬姟閫昏緫澶勭悊
 
         System.out.println("ConcreteClass2 do something");
     }
 
     /**
-     * 实现基本方法
+     * 瀹炵幇鍩烘湰鏂规硶
      */
     @Override
     protected void doAnything() {
 
-        //业务逻辑处理
+        //涓氬姟閫昏緫澶勭悊
 
         System.out.println("ConcreteClass2 do anything");
     }

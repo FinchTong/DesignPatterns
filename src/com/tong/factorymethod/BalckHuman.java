@@ -8,11 +8,11 @@ public class BalckHuman implements Human {
 
     @Override
     public void getColor() {
-        System.out.println("肤色为黑");
+        System.out.println("鑲よ壊涓洪粦");
     }
 
     @Override
     public void talk() {
-        System.out.println("黑人说话");
+        System.out.println("榛戜汉璇磋瘽");
     }
 }

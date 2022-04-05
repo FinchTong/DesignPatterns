@@ -7,21 +7,21 @@ package com.tong.builderpattern;
 public class BMWModel extends CarModel {
     @Override
     protected void start() {
-        System.out.println("±¦Âí³µ·¢¶¯à¶...");
+        System.out.println("å®é©¬è½¦å‘åŠ¨å–½...");
     }
 
     @Override
     protected void stop() {
-        System.out.println("±¦Âí³µÍ£³µÀ²...");
+        System.out.println("å®é©¬è½¦åœè½¦å•¦...");
     }
 
     @Override
     protected void alarm() {
-        System.out.println("±¦Âí³µµÄÀ®°ÈÉùÒôÊÇÕâÑùµÄ...");
+        System.out.println("å®é©¬è½¦çš„å–‡å­å£°éŸ³æ˜¯è¿™æ ·çš„...");
     }
 
     @Override
     protected void engineBoom() {
-        System.out.println("±¦Âí³µµÄÒıÇæÊÇÕâ¸öÉùÒô...");
+        System.out.println("å®é©¬è½¦çš„å¼•æ“æ˜¯è¿™ä¸ªå£°éŸ³...");
     }
 }

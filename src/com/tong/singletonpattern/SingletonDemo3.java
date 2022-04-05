@@ -1,8 +1,8 @@
 package com.tong.singletonpattern;
 
 /**
- * 饿汉
- * 避免了多线程的同步问题，instance在类装载时实例化
+ * 楗挎眽
+ * 閬垮厤浜嗗绾跨▼鐨勫悓姝ラ棶棰橈紝instance鍦ㄧ被瑁呰浇鏃跺疄渚嬪寲
  *
  * @author tong
  */

@@ -7,12 +7,12 @@ package com.tong.factorymethod;
 public interface Human {
 
     /**
-     * 每个人的肤色
+     * 姣忎釜浜虹殑鑲よ壊
      */
     public void getColor();
 
     /**
-     * 人类说话
+     * 浜虹被璇磋瘽
      */
     public void talk();
 

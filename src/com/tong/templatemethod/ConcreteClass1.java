@@ -1,7 +1,7 @@
 package com.tong.templatemethod;
 
 /**
- * ¾ßÌåÄ£°åÀà
+ * å…·ä½“æ¨¡æ¿ç±»
  *
  * @author finch
  * @date 2018/2/6
@@ -9,23 +9,23 @@ package com.tong.templatemethod;
 public class ConcreteClass1 extends AbstractClass {
 
     /**
-     * ÊµÏÖ»ù±¾·½·¨
+     * å®ç°åŸºæœ¬æ–¹æ³•
      */
     @Override
     protected void doSomething() {
 
-        //ÒµÎñÂß¼­´¦Àí
+        //ä¸šåŠ¡é€»è¾‘å¤„ç†
 
         System.out.println("ConcreteClass1 do something");
     }
 
     /**
-     * ÊµÏÖ»ù±¾·½·¨
+     * å®ç°åŸºæœ¬æ–¹æ³•
      */
     @Override
     protected void doAnything() {
 
-        //ÒµÎñÂß¼­´¦Àí
+        //ä¸šåŠ¡é€»è¾‘å¤„ç†
 
         System.out.println("ConcreteClass1 do anything");
 

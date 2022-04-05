@@ -7,7 +7,7 @@ package com.tong.proxypattern.one;
 public class Client {
 
     public static void main(String[] args) {
-        IGamePlayer gamePlayer = new GamePlayer("ÕÅÈý");
+        IGamePlayer gamePlayer = new GamePlayer("å¼ ä¸‰");
         IGamePlayer gamePlayerProxy = new GamePlayerProxy(gamePlayer);
 
         gamePlayerProxy.login("zhangsan", "123456");

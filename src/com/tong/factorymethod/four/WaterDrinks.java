@@ -7,6 +7,6 @@ package com.tong.factorymethod.four;
 public class WaterDrinks implements Drinks {
     @Override
     public void prices() {
-        System.out.println("ˮ��ҪǮ");
+        System.out.println("水不要钱");
     }
 }

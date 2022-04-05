@@ -1,7 +1,7 @@
 package com.tong.singletonpattern;
 
 /**
- * 懒汉，线程不安全
+ * 鎳掓眽锛岀嚎绋嬩笉瀹夊叏
  *
  * @author tong
  */

@@ -7,6 +7,6 @@ package com.tong.factorymethod.four;
 public class TeaDrinks implements Drinks {
     @Override
     public void prices() {
-        System.out.println("ÂÌ²èËÄ¿é");
+        System.out.println("ç»¿èŒ¶å››å—");
     }
 }

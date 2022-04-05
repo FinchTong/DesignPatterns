@@ -1,8 +1,8 @@
 package com.tong.singletonpattern;
 
 /**
- * ¾²Ì¬ÄÚ²¿Àà
- * Ö»ÓĞÔÚµ÷ÓÃgetSingletonDemo5()·½·¨Ê±²Å»á³õÊ¼»¯Àà
+ * é™æ€å†…éƒ¨ç±»
+ * åªæœ‰åœ¨è°ƒç”¨getSingletonDemo5()æ–¹æ³•æ—¶æ‰ä¼šåˆå§‹åŒ–ç±»
  *
  * @author tong
  */

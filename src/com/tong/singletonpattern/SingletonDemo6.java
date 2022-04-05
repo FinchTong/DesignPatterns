@@ -1,8 +1,8 @@
 package com.tong.singletonpattern;
 
 /**
- * 枚举
- * 不仅能避免多线程同步问题，而且还能防止反序列化重新创建新的对象
+ * 鏋氫妇
+ * 涓嶄粎鑳介伩鍏嶅绾跨▼鍚屾闂锛岃�屼笖杩樿兘闃叉鍙嶅簭鍒楀寲閲嶆柊鍒涘缓鏂扮殑瀵硅薄
  *
  * @author tong
  */
