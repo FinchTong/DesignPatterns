@@ -7,7 +7,7 @@ package com.tong.singletonpattern;
  */
 public class SingletonDemo7 {
 
-    private static SingletonDemo7 singletonDemo7;
+    private volatile static SingletonDemo7 singletonDemo7;
 
     private SingletonDemo7() {
 
